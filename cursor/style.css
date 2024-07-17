@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    cursor: default;
+}
+
+div.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 128px;
+}
+
+div.cursor {
+    height: 20px;
+    width: 20px;
+    position: fixed;
+    mix-blend-mode: difference;
+    background-color: white;
+    z-index: 10;
+    border-radius: 100%;
+    transition: all 0.5s;
+
+}

@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    cursor: default;
+}
+
+div.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+i {
+    position: relative;
+    color: #fff;
+    padding: 10px;
+}
